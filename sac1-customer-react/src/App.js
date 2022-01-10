@@ -3,7 +3,7 @@ import AppRouter from './AppRouter';
 
 function App(props) {
 
-  const url = props.url ?? "http://localhost:8080/api"
+  const url = props.url ?? "http://localhost:8080/api/customer"
 
   return (
     <div className="App">

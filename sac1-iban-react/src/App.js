@@ -3,7 +3,7 @@ import AppRouter from './AppRouter';
 
 function App(props) {
 
-  const url = props.url ?? "http://localhost:7071/api"
+  const url = props.url ?? "http://localhost:7071/api/iban"
 
   return (
     <div className="App">
